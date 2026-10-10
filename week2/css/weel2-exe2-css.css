@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(254, 255, 175);
+    color: rgb(120, 162, 210);
+}
+
+h1 {
+    margin: 10px 30px;
+    font-weight: bold;
+}
+
+h2 {
+    border: dotted 2px rgb(120, 162, 210);
+    background-color: rgb(250, 255, 199);
+    padding: 10px 30px;
+    margin: 2px 10px;
+}
+
+p {
+    margin: 2px 10px;
+}
+
+img {
+    margin: 10px 30px;
+}
+
+a {
+    gap: 2px;
+}
+
+.insta {
+    margin: 10px 1px;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.spotify {
+    margin-left: 1px;
+}
