@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(13, 11, 15);
+    color: rgb(237, 237, 232);
+}
+
+h1,
+h3 {
+    color: rgb(255, 248, 210);
+}
+
+h1 {
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.eve {
+    margin: 20px;
+}
+
+.intro {
+    margin: 10px;
+}
+
+.insta {
+
+    margin: 10px 40px;
+
+}
+
+.button-link {
+
+    background-color: rgb(13, 11, 15);
+    border: 1px solid rgb(237, 237, 232);
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
