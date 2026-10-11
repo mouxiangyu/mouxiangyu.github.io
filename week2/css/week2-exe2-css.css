@@ -23,15 +23,10 @@ img {
     margin: 10px 30px;
 }
 
-a {
-    gap: 2px;
-}
-
 .insta {
-    margin: 10px 1px;
-    border: solid 2px rgb(0, 0, 0);
+    display: inline-block;
 }
 
 .spotify {
-    margin-left: 1px;
+    display: inline-block;
 }
