@@ -19,14 +19,18 @@ p {
     margin: 2px 10px;
 }
 
-img {
+.pfp {
     margin: 10px 30px;
+    border-radius: 20px;
 }
 
 .insta {
     display: inline-block;
+    margin-left: 40px;
+    margin-right: 10px;
 }
 
 .spotify {
     display: inline-block;
+    margin-left: 10px;
 }
