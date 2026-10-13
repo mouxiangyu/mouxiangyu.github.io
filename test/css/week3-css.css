@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Ma+Shan+Zheng&display=swap');
+
+body {
+    font-family: "Bitcount Ink", system-ui;
+    background-color: rgb(227, 202, 211);
+    line-height: 2.5;
+    background-image: url('../images/ghost\ avenue.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    font-family: "Playfair Display", system-ui;
+    border: 2px solid rgb(227, 202, 211);
+    border-radius: 10px 60px;
+    padding: 20px;
+    box-shadow: 2px 4px 6px black;
+}
+
+h1 {
+    font-family: "Courier Prime", monospace;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Ma Shan Zheng", cursive;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: dotted;
+    color: tomato;
+    font-size: 20px;
+}

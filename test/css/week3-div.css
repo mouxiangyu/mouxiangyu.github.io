@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    /*a layout method for arranging items in rows or columns*/
+    flex-direction: row-reverse;
+    /*changes row without changing the original html*/
+    max-width: 800px;
+    margin: auto;
+}
+
+.box {
+    padding: 10px;
+    flex: 1;
+    /*adjust size equally between the class*/
+}
+
+.london {
+    background-color: #FFF4A3;
+
+}
+
+.oslo {
+    background-color: #FFC0C7;
+    flex: 2;
+}
+
+.rome {
+    background-color: #D9EEE1;
+}
