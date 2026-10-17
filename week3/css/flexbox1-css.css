@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+body {
+    font-family: "Oxygen", sans-serif;
+    background-color: cornflowerblue;
+    line-height: 1.5;
+    background-image: url('../images/flexboxbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1024px;
+    margin: auto;
+    gap: 20px
+}
+
+.box {
+    padding: 10px;
+    flex: 1;
+}
+
+.residential,
+.commercial,
+.infra {
+    background-color: aliceblue;
+    flex: 2;
+    border-radius: 10px;
+}
+
+
+.residentbg {
+    min-height: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    background-image: url('../images/resident.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 2;
+}
+
+.commbg {
+    min-height: 100px;
+    aspect-ratio: 1/1;
+    background-image: url('../images/comm.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 2;
+    border-radius: 10px;
+}
+
+.infrabg {
+    min-height: 100px;
+    aspect-ratio: 1/1;
+    background-image: url('../images/infra.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 2;
+    border-radius: 10px;
+}
+
+h2,
+p {
+    padding-left: 10px;
+}
