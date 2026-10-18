@@ -3,3 +3,89 @@
 body {
     font-family: "Space Grotesk", sans-serif;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.header p {
+    margin: 0;
+}
+
+.positivus {
+    background-image: url('../images/positivus%20logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    flex: 0 0 180px;
+    height: 40px;
+    margin-right: 350px;
+    margin-left: 20px;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin: 10px 60px;
+}
+
+.text,
+.bigimage {
+    flex: 1;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.bigimage {
+    background-image: url('../images/Illustration.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 515px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+.logos {
+    background-image: url('../images/Logotypes.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 40px;
+    filter: grayscale(100%);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.req,
+.book {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.req {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 13px 20px;
+    margin: 0 10px;
+}
+
+.book {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 13px 20px;
+}
