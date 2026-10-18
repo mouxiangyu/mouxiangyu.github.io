@@ -13,15 +13,17 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     max-width: 1024px;
     margin: auto;
-    gap: 20px
+    gap: 20px;
+    padding: 10px;
 }
 
 .box {
     padding: 10px;
     flex: 1;
+
 }
 
 .residential,
@@ -37,33 +39,62 @@ body {
     min-height: 100px;
     aspect-ratio: 1/1;
     border-radius: 10px;
-    background-image: url('../images/resident.jpg');
-    background-size: cover;
-    background-position: center;
+    position: relative;
+    overflow: hidden;
     flex: 2;
+    margin: 10px 10px;
 }
 
 .commbg {
     min-height: 100px;
     aspect-ratio: 1/1;
-    background-image: url('../images/comm.jpg');
-    background-size: cover;
-    background-position: center;
-    flex: 2;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    flex: 2;
+    margin: 10px 10px;
 }
 
 .infrabg {
     min-height: 100px;
     aspect-ratio: 1/1;
-    background-image: url('../images/infra.jpg');
-    background-size: cover;
-    background-position: center;
-    flex: 2;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    flex: 2;
+    margin: 10px 10px;
 }
 
 h2,
 p {
     padding-left: 10px;
+}
+
+.residentbg::before,
+.commbg::before,
+.infrabg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.residentbg::before {
+    background-image: url('../images/resident.jpg');
+}
+
+.commbg::before {
+    background-image: url('../images/comm.jpg');
+}
+
+.infrabg::before {
+    background-image: url('../images/infra.jpg');
+}
+
+.residentbg:hover::before,
+.commbg:hover::before,
+.infrabg:hover::before {
+    transform: scale(1.05);
 }
