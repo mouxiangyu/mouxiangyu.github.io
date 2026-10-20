@@ -1,0 +1,43 @@
+body {
+    background-color: olivedrab;
+}
+
+button {
+    display: block;
+    /*automatically makes a row of buttons into individual blocks | none: makes everthing disappear*/
+}
+
+div {
+    display: inline;
+    /*makes the paragraph into a line instead of separate lines*/
+}
+
+.disappear {
+    display: none;
+}
+
+/*media query always below of everything*/
+
+/*Mobile styles*/
+@media screen and (min-width: 600px)
+/*min = small > big, max = big > small*/
+    {
+    body {
+        background-color: lightgreen;
+    }
+
+    p {
+        color: darkorange;
+    }
+}
+
+/*Tablet styles*/
+@media screen and (min-width: 800px) {
+    body {
+        background-color: lightsalmon;
+    }
+
+    p {
+        color: whitesmoke;
+    }
+}
