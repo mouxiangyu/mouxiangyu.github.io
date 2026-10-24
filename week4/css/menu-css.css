@@ -15,8 +15,27 @@ body {
     justify-content: space-evenly;
 }
 
-.number {
+.info:hover {
+    color: rgb(249, 97, 44);
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
     gap: 20px;
+}
+
+.number {
+    gap: 10px;
+}
+
+.con {
+    color: white;
+    background-color: rgb(249, 97, 44);
+    border: 0px;
+    border-radius: 10px;
+    padding: 12px 25px;
+
 }
 
 .mobile-menu {
@@ -26,8 +45,8 @@ body {
 /*tablet*/
 @media screen and (max-width:1000px) {
     .header {
-        justify-content: flex-start;
-        gap: 12px;
+        justify-content: space-between;
+
     }
 
     .info {
