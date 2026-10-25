@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: lemonchiffon;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.topheader {
+    background-color: rgb(14, 12, 12);
+
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+
+}
+
+.headercon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.social {
+    display: flex;
+    gap: 12px;
+}
+
+.exelist {
+    display: flex;
+    flex-direction: row;
+}
