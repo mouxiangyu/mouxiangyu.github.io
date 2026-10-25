@@ -15,7 +15,11 @@ body {
     justify-content: space-evenly;
 }
 
-.info:hover {
+.home:hover,
+.serv:hover,
+.work:hover,
+.proj:hover,
+.cont:hover {
     color: rgb(249, 97, 44);
 }
 
