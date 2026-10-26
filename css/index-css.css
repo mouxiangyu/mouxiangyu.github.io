@@ -81,9 +81,18 @@ h3 {
 
 }
 
-.exelist p {
+.exelist a {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: rgb(14, 12, 12);
+}
+
+.exelist a:hover {
+    color: #b9841a;
+    font-size: 18px;
 }
 
 .week-heading {
