@@ -290,10 +290,13 @@ h1 {
         flex-wrap: wrap;
     }
 
+    .servheader p {
+        padding-right: 100px;
+    }
+
 }
 
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1090px) {
     .container {
         justify-content: space-between;
     }
@@ -302,8 +305,100 @@ h1 {
         flex-wrap: wrap;
     }
 
+    .servheader p {
+        padding-right: 100px;
+    }
+
+    .happencontent {
+        justify-content: space-between;
+        font-size: smaller;
+    }
+
+    .happentext {
+        margin-top: auto;
+    }
+
+    .proposal {
+        font-size: 12px;
+        padding: 10px 30px;
+        margin: auto;
+    }
+
 }
 
+@media screen and (max-width: 1000px) {
+    .container {
+        justify-content: space-between;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+    }
+
+    .servheader p {
+        padding-right: 100px;
+    }
+
+    .happencontent {
+        justify-content: space-between;
+        font-size: smaller;
+        height: auto;
+    }
+
+    .happentext {
+        margin-top: 0px;
+        justify-content: space-between;
+    }
+
+    .happentext p {
+        margin-right: 0px;
+    }
+
+    .happenimg {
+        object-fit: contain;
+    }
+
+    .proposal {
+        font-size: 12px;
+        padding: 10px 30px;
+        margin: auto;
+    }
+
+}
+
+
+
+@media screen and (max-width: 890px) {
+    .container {
+        justify-content: space-between;
+    }
+
+    .info {
+        font-size: 15px;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+    }
+
+    .happencontent {
+        justify-content: space-between;
+        font-size: smaller;
+        height: auto;
+    }
+
+    .happentext {
+        margin-top: auto;
+        justify-content: space-between;
+    }
+
+    .proposal {
+        font-size: 12px;
+        padding: 10px 30px;
+        margin: auto;
+    }
+
+}
 
 
 @media screen and (max-width: 850px) {
@@ -319,13 +414,33 @@ h1 {
         flex-wrap: wrap;
     }
 
+    .happencontent {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 40px 20px;
+        padding: 24px;
+        gap: 12px;
+        height: auto;
+        min-height: 180px;
+    }
+
+    .happentext {
+        text-align: center;
+    }
+
+    .happenimg img {
+        margin-left: 90px;
+    }
+
+    .proposal {
+        margin: 10px;
+    }
 }
 
 
 
-
 /*tablet style*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .container {
         justify-content: space-between;
     }
@@ -362,6 +477,10 @@ h1 {
         padding: 24px;
     }
 
+    .services {
+        margin: 0px 20px;
+    }
+
     .boxtext span {
         font-size: 18px;
     }
@@ -370,9 +489,10 @@ h1 {
         max-height: 120px;
     }
 
+
     .happencontent {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: column-reverse;
+        align-items: center;
         margin: 40px 20px;
         padding: 24px;
         gap: 12px;
@@ -381,22 +501,20 @@ h1 {
     }
 
     .happentext {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .happenimg {
-        position: static;
+        text-align: center;
     }
 
     .happenimg img {
-        width: 180px;
-        height: 180px;
+        margin-left: 90px;
+    }
+
+    .proposal {
+        margin: 10px;
     }
 }
 
 /*mobile*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
     .container {
         justify-content: space-between;
     }
@@ -422,6 +540,27 @@ h1 {
 
     .book {
         padding: 20px 100px;
+    }
+
+    .servheader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+        gap: 0px;
+    }
+
+    .servicehl {
+        font-size: 30px;
+        margin: 0px;
+    }
+
+    .servheader p {
+        padding: 0;
+    }
+
+    .services {
+        margin: 0px 20px;
     }
 
 
