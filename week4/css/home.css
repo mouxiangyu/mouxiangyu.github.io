@@ -5,7 +5,8 @@ body {
 }
 
 .req,
-.book {
+.book,
+.proposal {
     font-family: "Space Grotesk", sans-serif;
 }
 
@@ -106,6 +107,182 @@ h1 {
     gap: 70px;
 }
 
+.servheader {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 80px;
+    margin-left: 65px;
+    margin-bottom: 40px;
+}
+
+.servicehl {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    background-color: #B9FF66;
+}
+
+.servheader p {
+    padding-top: 35px;
+    padding-right: 460px;
+}
+
+.servcontent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
+
+.searcheg,
+.emailmarket {
+    background-color: #f3f3f3;
+    border-radius: 20px;
+}
+
+.ppcad,
+.contentcre {
+    background-color: #B9FF66;
+    border-radius: 30px;
+}
+
+.socmed,
+.analytics {
+    background-color: rgb(25 26 35);
+    border-radius: 15px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 1 calc(45% - 20px);
+    box-sizing: border-box;
+    min-height: 200px;
+    padding: 40px 50px;
+    border: 1px solid rgb(25 26 35);
+    border-radius: 24px;
+    box-shadow: 0 5px rgb(25 26 35);
+    gap: 60px;
+}
+
+.boxtext {
+    display: grid;
+    flex: 1 1 50%;
+    grid-template-columns: 28px 1fr;
+    align-content: space-between;
+    align-self: stretch;
+    gap: 70px 10px;
+}
+
+.boxtext span {
+    display: block;
+    grid-column: 1 / -1;
+    justify-self: start;
+    width: fit-content;
+    max-width: 100%;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: rgb(25 26 35);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.boxtext img {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+}
+
+.boxtext p {
+    align-self: center;
+    margin: 0;
+}
+
+.boximage {
+    display: flex;
+    flex: 0 1 45%;
+    justify-content: center;
+}
+
+.boximage img {
+    width: 100%;
+    max-width: 180px;
+    max-height: 140px;
+    object-fit: contain;
+}
+
+.searchhl,
+.emailhl,
+.analyhl {
+    background-color: #B9FF66;
+}
+
+.ppcadhl,
+.smmarkethl,
+.concrehl {
+    background-color: white;
+}
+
+.socmed,
+.analytics {
+    color: white;
+}
+
+.happencontent {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    margin: 100px 65px;
+    padding: 20px 40px;
+    height: 300px;
+    box-sizing: border-box;
+    overflow: visible;
+    gap: 80px;
+}
+
+.happenimg img {
+    display: block;
+    height: 350px;
+    object-fit: contain;
+    margin-right: 70px;
+}
+
+.happentext {
+    width: auto;
+    flex: 1;
+}
+
+.happentext h2 {
+    font-size: 30px;
+}
+
+.happentext p {
+    margin-right: 30px;
+}
+
+.proposal {
+    color: white;
+    background-color: rgb(25 26 35);
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.proposal:hover {
+    background-color: white;
+    border: 1px solid rgb(25 26 35);
+    border-radius: 12px;
+    color: rgb(25 26 35);
+}
+
 @media screen and (max-width: 1200px) {
     .container {
         justify-content: space-between;
@@ -180,6 +357,43 @@ h1 {
 
     .book {
         padding: 20px 150px;
+    }
+
+    .box {
+        flex-basis: 100%;
+        padding: 24px;
+    }
+
+    .boxtext span {
+        font-size: 18px;
+    }
+
+    .boximage img {
+        max-height: 120px;
+    }
+
+    .happencontent {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 40px 20px;
+        padding: 24px;
+        gap: 12px;
+        height: auto;
+        min-height: 180px;
+    }
+
+    .happentext {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .happenimg {
+        position: static;
+    }
+
+    .happenimg img {
+        width: 180px;
+        height: 180px;
     }
 }
 
