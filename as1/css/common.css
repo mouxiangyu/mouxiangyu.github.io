@@ -10,6 +10,18 @@
     --btn-outline: #D3D3D3;
     --background-grey: #F2F2F2;
     --background-light: #FFFFFF;
+    --font-main: "Bebas Neue", sans-serif;
+    --font-paragraph: "Lora", serif;
+    --font-section: "Lora", italic;
+    --font-eyebrow: "Work Sans", sans-serif;
+    --bebas-hero: 95px;
+    --bebas-title: 70px;
+    --bebas-subtitle: 56px;
+    --bebas-objtitle: 30px;
+    --bebas-subobjtitle: 25px;
+    --lora-section: 46px;
+    --lora-menu: 40px;
+    --lora-paragraph: 19px;
 }
 
 /* === GLOBAL RESET & TYPOGRAPHY === */
@@ -20,9 +32,7 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    color: var(--text);
-    line-height: 1.6;
+    color: var(--color-dark);
 }
 
 /* === LAYOUT COMPONENTS === */
@@ -32,6 +42,9 @@ body {
     background: var(--bg-light);
 }
 
+
+
+
 .nav {
     display: flex;
     gap: 20px;
@@ -40,10 +53,19 @@ body {
 
 /* === REUSABLE COMPONENTS === */
 .btn {
+    font-family: "Work Sans", sans-serif;
+    padding: var();
     color: var(--text);
-    background: var(--primary);
-    padding: 10px 16px;
-    border: none;
-    border-radius: var(--radius);
-    cursor: pointer;
+    background-color: var(--primary);
+    border: 1px solid var();
+    padding: var();
 }
+
+/*desktop*/
+@media screen and (max-width: 1536px) {}
+
+/*tablet*/
+@media screen and (max-width: 1024px) {}
+
+/*mobile*/
+@media screen and (max-width: 640px) {}
