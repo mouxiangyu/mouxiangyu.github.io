@@ -59,3 +59,67 @@ body {
     line-height: 30px;
     padding-right: 80px;
 }
+
+.introduction {
+    background-color: white;
+    color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.introtext {
+    text-align: center;
+}
+
+.introtext h2 {
+    font-family: var(--font-section);
+    font-style: italic;
+    font-weight: lighter;
+    font-size: var(--lora-section);
+    border-bottom: 1px solid #A1A1A1;
+    padding: 10px;
+}
+
+.introtext h1 {
+    font-size: var(--bebas-title);
+    font-weight: 200;
+    margin: 30px;
+
+}
+
+.introtext p {
+    font-family: var(--font-paragraph);
+    padding: 0px 260px;
+    line-height: 30px;
+}
+
+.foodshowcase {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    text-align: center;
+}
+
+.dessert,
+.seasonal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chefspecials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.view {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 40px;
+}
