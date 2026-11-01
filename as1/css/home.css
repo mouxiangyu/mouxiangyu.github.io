@@ -123,3 +123,67 @@ body {
     border: 1px solid black;
     padding: 10px 40px;
 }
+
+.atmosphere {
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    background-image: url(../images/Dining\ Table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.atmostext {
+    padding: 100px 150px;
+}
+
+.atmostext h1 {
+    font-size: var(--bebas-title);
+    font-weight: 200;
+}
+
+.atmostext p {
+    font-family: var(--font-paragraph);
+    margin-top: 30px;
+    margin-right: 500px;
+    line-height: 28px;
+}
+
+.footer {
+    width: auto;
+    aspect-ratio: 3/1;
+    background-image: url(../images/Vector.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logogrp h1 {
+    font-weight: 200;
+}
+
+.footer p {
+    font-family: var(--font-paragraph);
+    padding: 0px 300px;
+    text-align: center;
+    line-height: 27px;
+}
+
+.footersocials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.fb,
+.x,
+.insta,
+.yt {
+    background-color: white;
+    border: 0px solid;
+    border-radius: 50px;
+    padding: 16px 19px;
+}
