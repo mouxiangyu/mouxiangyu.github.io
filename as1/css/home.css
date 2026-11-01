@@ -1,0 +1,61 @@
+body {
+    font-family: var(--font-main);
+    color: white;
+    background-color: var(--color-dark);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.top {
+    margin-left: 110px;
+}
+
+.top h1 {
+    font-weight: 300;
+}
+
+.infobar {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-family: var(--font-eyebrow);
+    font-size: 15px;
+    margin-left: 300px;
+}
+
+.mainsection {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.maintext {
+    margin-top: 150px;
+    margin-left: 130px;
+}
+
+.maintext h1 {
+    font-size: var(--bebas-hero);
+    font-weight: 300;
+}
+
+.welcome {
+    font-family: var(--font-eyebrow);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.mainpara {
+    font-family: var(--font-paragraph);
+    margin-top: 20px;
+    line-height: 30px;
+    padding-right: 80px;
+}

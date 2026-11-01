@@ -27,8 +27,6 @@
 /* === GLOBAL RESET & TYPOGRAPHY === */
 * {
     margin: auto;
-    padding: 0 10%;
-    box-sizing: border-box;
 }
 
 body {
@@ -39,11 +37,18 @@ body {
 .header,
 .footer {
     padding: 20px;
-    background: var(--bg-light);
 }
 
+.logogrp {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
 
-
+.logogrp h2 {
+    color: white;
+}
 
 .nav {
     display: flex;
