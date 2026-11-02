@@ -58,11 +58,8 @@ body {
 /* === REUSABLE COMPONENTS === */
 .btn {
     font-family: "Work Sans", sans-serif;
-    padding: var();
     color: var(--text);
     background-color: var(--primary);
-    border: 1px solid var();
-    padding: var();
 }
 
 /*desktop*/
