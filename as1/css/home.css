@@ -173,8 +173,13 @@ body {
 
 .view {
     background-color: var(--background-light);
-    border: 1px solid var(--color-dark);
+    border: 1px solid var(--btn-outline);
     padding: 10px 40px;
+}
+
+.view:hover {
+    background-color: var(--hover-gold);
+    border: 1px solid var(--color-dark);
 }
 
 .atmosphere-section {
