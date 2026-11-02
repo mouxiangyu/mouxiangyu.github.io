@@ -266,7 +266,7 @@ body {
 @media screen and (max-width: 1160px) {
     .header {
         justify-content: space-between;
-        gap: 680px;
+
         background-color: var(--color-dark);
         position: fixed;
         z-index: 10;
@@ -415,12 +415,25 @@ body {
 
 }
 
+@media screen and (max-width: 980px) {
+    .header {
+
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .header {
+        width: auto;
+    }
+}
+
 /*mobile*/
 
 @media screen and (max-width: 640px) {
     .header {
         justify-content: space-between;
-        gap: 260px;
+
     }
 
     .maintext {
