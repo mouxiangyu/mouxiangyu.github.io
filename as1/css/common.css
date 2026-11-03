@@ -10,21 +10,21 @@
     --btn-outline: #D3D3D3;
     --background-grey: #F2F2F2;
     --background-light: #FFFFFF;
+
+    /*typography*/
+
     --font-main: "Bebas Neue", sans-serif;
     --font-paragraph: "Lora", serif;
     --font-section: "Lora", italic;
-    --font-eyebrow: "Work Sans", sans-serif;
+    --font-subtitle: "Work Sans", sans-serif;
     --bebas-hero: 95px;
     --bebas-title: 70px;
-    --bebas-subtitle: 56px;
-    --bebas-objtitle: 30px;
-    --bebas-subobjtitle: 25px;
+    --subtitle: 15px;
     --lora-section: 46px;
-    --lora-menu: 40px;
     --lora-paragraph: 19px;
 }
 
-/* === GLOBAL RESET & TYPOGRAPHY === */
+/* GLOBAL */
 * {
     margin: auto;
 }
@@ -32,7 +32,7 @@
 body {
     font-family: var(--font-main);
     color: var(--background-light);
-    color: var(--color-dark);
+    background-color: var(--color-dark);
 }
 
 /* === LAYOUT COMPONENTS === */
@@ -46,4 +46,67 @@ body {
     justify-content: space-between;
     gap: 20px;
     align-items: center;
+}
+
+.mobilemenu {
+    display: none;
+}
+
+.tabletenvironment {
+    display: none;
+}
+
+/*text styling*/
+.maintext h1 {
+    font-size: var(--bebas-hero);
+    font-weight: 300;
+}
+
+.welcome {
+    font-family: var(--font-subtitle);
+    font-size: var(--subtitle);
+}
+
+.introtext h1 {
+    font-size: var(--bebas-title);
+    font-weight: 200;
+}
+
+.atmostext h1 {
+    font-size: var(--bebas-title);
+    font-weight: 200;
+}
+
+.atmostext p {
+    font-family: var(--font-paragraph);
+    line-height: 28px;
+}
+
+.logogrp h1 {
+    font-weight: 200;
+}
+
+.footer p {
+    font-family: var(--font-paragraph);
+    line-height: 27px;
+}
+
+@media screen and (max-width: 1160px) {
+
+    .mobilemenu {
+        display: block;
+    }
+
+    .welcome {
+        font-size: smaller;
+    }
+
+    .maintext h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .mainpara {
+        font-size: medium;
+    }
 }
