@@ -288,7 +288,6 @@
         display: flex;
         flex-direction: column;
         gap: 60px;
-        width: calc(100% + 200px);
         margin: 0 -100px;
     }
 
@@ -313,7 +312,7 @@
         object-position: center;
     }
 
-    .foodshowcase .chefspecials {
+    .chefspecials {
         order: -1;
         font-size: var(--font-section);
     }
@@ -333,10 +332,6 @@
         margin-top: 30px;
         margin-right: 250px;
         line-height: 29px;
-    }
-
-    .footer>* {
-        margin: 0;
     }
 
     .footer {
