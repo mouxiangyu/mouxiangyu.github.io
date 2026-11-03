@@ -227,6 +227,7 @@
         justify-content: space-between;
         background-color: var(--color-dark);
         position: fixed;
+        z-index: 1000;
     }
 
     .infobar {
