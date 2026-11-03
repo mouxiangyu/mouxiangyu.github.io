@@ -1,3 +1,9 @@
+body {
+    font-family: var(--font-main);
+    color: var(--background-light);
+    background-color: var(--color-dark);
+}
+
 .header {
     display: flex;
     justify-content: space-between;
