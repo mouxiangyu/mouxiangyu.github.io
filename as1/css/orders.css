@@ -68,3 +68,164 @@
 .textbutton .viewcart {
     margin-left: auto;
 }
+
+.signatures {
+    padding: 80px 0;
+    padding-right: 90px;
+}
+
+.menusectiontop {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.menucon {
+    background-color: var(--color-grey);
+    flex: 1;
+    min-width: 0;
+}
+
+.menucon img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.menusectionmiddle {
+    background-color: var(--background-light);
+    color: var(--color-dark);
+    padding: 70px 100px;
+}
+
+.twicecookpork {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-dark);
+    color: var(--background-light);
+    align-items: center;
+}
+
+.porkimg {
+    width: 45%;
+}
+
+.porkimg img {
+    width: 100%;
+}
+
+
+.menutextpork {
+    margin: 0 90px;
+}
+
+.menutextpork h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.foodrecp {
+    font-family: var(--font-subtitle);
+    margin: 5px 0;
+}
+
+.fooddetailp {
+    font-family: var(--font-paragraph);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.buttonscontainerp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.btnqtyp {
+    background-color: var(--color-dark);
+    color: var(--background-light);
+    border: 1px solid var(--background-light);
+    font-family: var(--font-paragraph);
+    padding: 15px 20px;
+}
+
+.addcartbuttonp {
+    font-family: var(--font-subtitle);
+    background-color: var(--background-light);
+    color: var(--color-dark);
+    border: 0px solid;
+    padding: 15px 20px;
+}
+
+.bottom {
+    padding-left: 90px;
+}
+
+.menusectionbottom {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.btmtext h1 {
+    margin-top: 40px;
+}
+
+.btmdetail {
+    padding-right: 0;
+}
+
+.buttonscontainerbtm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btmqty {
+    padding: 15px 29px;
+}
+
+.btmqtynum {
+    padding: 0 80px;
+}
+
+.btmadd {
+    padding: 15px 104px;
+}
+
+.btmview {
+    padding: 15px 112px;
+}
+
+.checkoutcontainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 200px;
+}
+
+.checkouttext {
+    font-family: var(--font-subtitle);
+}
+
+.checkoutcontainer h1 {
+    font-weight: 100;
+}
+
+.checkoutdetail {
+    font-family: var(--font-paragraph);
+    margin: 10px 0;
+}
+
+.viewncheck {
+    font-family: var(--font-subtitle);
+    background-color: var(--hover-gold);
+    color: var(--background-light);
+    border: 0px solid;
+    padding: 15px 30px;
+}

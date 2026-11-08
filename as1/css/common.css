@@ -93,6 +93,8 @@ body {
 }
 
 /*text styling*/
+
+/* # home # */
 .maintext h1 {
     font-size: var(--bebas-hero);
     font-weight: 300;
@@ -118,6 +120,90 @@ body {
     line-height: 28px;
 }
 
+/* # orders # */
+
+.signaturetext p {
+    font-family: var(--font-subtitle);
+    margin-bottom: 10px;
+}
+
+.signaturetext h1 {
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.menutext {
+    margin: 25px 25px;
+}
+
+.foodrec {
+    font-family: var(--font-subtitle);
+    margin: 20px 0;
+}
+
+.menutext h1 {
+    font-weight: 100;
+}
+
+.fooddetail {
+    font-family: var(--font-paragraph);
+    margin: 20px 0;
+    padding-right: 100px;
+    line-height: 1.5;
+}
+
+.foodprice {
+    font-family: var(--font-subtitle);
+    color: var(--hover-gold);
+    margin-bottom: 20px;
+}
+
+.btnqty,
+.menuviewcart,
+.addcartbutton {
+    font-family: var(--font-subtitle);
+}
+
+.buttonscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btnqty,
+.menuviewcart {
+    background-color: var(--color-grey);
+    color: var(--background-light);
+    border: 1px solid var(--background-light);
+}
+
+.quantitybuttons {
+    display: flex;
+    gap: 0;
+}
+
+.quantitybuttons button {
+    margin: 0;
+}
+
+.btnqty {
+    font-family: var(--font-paragraph);
+    padding: 15px 20px;
+}
+
+.menuviewcart {
+    padding: 15px 20px;
+}
+
+.addcartbutton {
+    background-color: var(--hover-gold);
+    color: var(--background-light);
+    border: 0px solid;
+    padding: 15px 50px;
+}
+
+/* # footer # */
 
 .footer {
     width: auto;
