@@ -1,0 +1,70 @@
+.mainpage {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    background-image: url(../images/orderbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintext {
+    position: static;
+    margin: -140px 0 0;
+    text-align: center;
+}
+
+.orderdivider {
+    background-color: var(--background-light);
+    color: var(--color-dark);
+    padding: 70px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dividertext {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+}
+
+.dividertext>* {
+    margin: 0;
+}
+
+.divsubtitle {
+    font-family: var(--font-subtitle);
+}
+
+.dividertext h1 {
+    font-weight: 100;
+}
+
+.textbutton {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.textbutton>* {
+    margin: 0;
+}
+
+.divpara {
+    font-family: var(--font-paragraph);
+    padding: 10px 0;
+    width: 400px;
+}
+
+.viewcart {
+    background-color: var(--background-light);
+    border: 1px solid var(--hover-grey);
+    padding: 15px 40px;
+}
+
+.textbutton .viewcart {
+    margin-left: auto;
+}
