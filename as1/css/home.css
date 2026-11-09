@@ -56,13 +56,6 @@
     padding: 10px;
 }
 
-.underline {
-    display: block;
-    width: 70px;
-    padding: 5px 0;
-    border-bottom: 1px solid var(--hover-grey);
-}
-
 .mobileintrotext {
     display: none;
 }

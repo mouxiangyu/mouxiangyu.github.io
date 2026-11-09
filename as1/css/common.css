@@ -110,6 +110,13 @@ body {
     font-weight: 200;
 }
 
+.underline {
+    display: block;
+    width: 70px;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--hover-grey);
+}
+
 .atmostext h1 {
     font-size: var(--bebas-title);
     font-weight: 200;

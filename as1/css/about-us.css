@@ -1,0 +1,155 @@
+.mainsection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutbg {
+    max-width: 58%;
+}
+
+.aboutbg img {
+    display: block;
+    max-width: 100%;
+}
+
+.maintext {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.aboutustext {
+    font-family: var(--font-paragraph);
+    padding: 20px 50px;
+}
+
+.culinarysec {
+    background-color: var(--background-light);
+    color: var(--color-dark);
+    padding: 80px 0;
+}
+
+.culinarysec h1 {
+    font-size: var(--bebas-hero);
+    font-weight: 200;
+}
+
+.culinarysec h1,
+.culinarysec p {
+    text-align: center;
+}
+
+.culinarycontainer {
+    display: flex;
+    gap: 5px;
+    margin: 60px 0;
+}
+
+.culinarycontainer>div {
+    margin: 0;
+}
+
+.culinaryimg {
+    flex: 1.4;
+}
+
+.culinaryimgsec {
+    flex: 1.23;
+}
+
+.culinarycontainer img {
+    width: 100%;
+}
+
+.culinarysec p {
+    font-family: var(--font-paragraph);
+    margin: 0 190px;
+    line-height: 2;
+}
+
+.commitmentsec {
+    display: flex;
+    flex-direction: row;
+}
+
+.committext {
+    flex: 1.2;
+    padding: 0 50px;
+    margin-top: 120px;
+}
+
+.committext h1 {
+    font-size: var(--bebas-title);
+    font-weight: 200;
+}
+
+.committext p {
+    font-family: var(--font-paragraph);
+    font-size: var(--lora-paragraph);
+    padding: 40px 0;
+    padding-right: 50px;
+    line-height: 2;
+}
+
+.commitimg {
+    flex: 1.26;
+}
+
+.commitimgsec {
+    flex: 1;
+}
+
+.commitimg img,
+.commitimgsec img {
+    display: block;
+    width: 100%;
+}
+
+.achievementssec {
+    background-image: url(../images/achievement.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    padding: 180px 0;
+}
+
+.achievementtitle {
+    font-size: var(--bebas-title);
+    font-weight: 100;
+    padding-bottom: 60px;
+}
+
+.achievementssec p {
+    font-family: var(--font-paragraph);
+    padding: 0 250px;
+    padding-bottom: 50px;
+}
+
+.achivecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.achivecontainer h1 {
+    font-size: 56px;
+    font-weight: 100;
+}
+
+.luxuryimg,
+.gourmetimg,
+.agfgimg {
+    padding: 50px 0;
+}
+
+.achivecontainer img {
+    width: 80%;
+    height: auto;
+}
+
+.underline {
+    width: 85px;
+}
