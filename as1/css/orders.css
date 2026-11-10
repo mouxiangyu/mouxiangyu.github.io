@@ -16,6 +16,22 @@
     text-align: center;
 }
 
+.styledlines p {
+    padding: 15px 20px;
+}
+
+.styledlines {
+    display: flex;
+}
+
+.styledlines div {
+    flex: 1;
+}
+
+.line {
+    border-bottom: 1px solid var(--background-light);
+}
+
 .orderdivider {
     background-color: var(--background-light);
     color: var(--color-dark);

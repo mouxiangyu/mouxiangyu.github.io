@@ -129,6 +129,18 @@ body {
 
 /* # orders # */
 
+.styledlines {
+    display: flex;
+}
+
+.styledlines div {
+    flex: 1;
+}
+
+.line {
+    border-bottom: 1px solid var(--background-light);
+}
+
 .signaturetext p {
     font-family: var(--font-subtitle);
     margin-bottom: 10px;
