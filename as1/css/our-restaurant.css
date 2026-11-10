@@ -91,6 +91,11 @@
     margin: 50px 0;
 }
 
+.gallerytablet,
+.gallerymobile {
+    display: none;
+}
+
 .reviewscontainer h1 {
     font-size: var(--bebas-hero);
     font-weight: 200;
@@ -127,4 +132,30 @@
 
 .reviewname {
     font-size: 25px;
+}
+
+@media screen and (max-width: 1160px) {
+
+    .environment {
+        display: none;
+    }
+
+    .mainsection {
+        background-image: url(../images/ourrestaurant-tablet.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+
+    .maintext {
+        padding: 100px 0;
+        padding-right: 0;
+    }
+
+    .envshowcase {
+        flex-direction: column;
+    }
+
+
 }

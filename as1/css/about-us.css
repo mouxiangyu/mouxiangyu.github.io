@@ -19,6 +19,23 @@
     text-align: center;
 }
 
+.styledlines {
+    display: flex;
+    width: 80%;
+}
+
+.styledlines div {
+    flex: 1;
+}
+
+.line {
+    border-bottom: 1px solid var(--background-light);
+}
+
+.styledlines p {
+    padding: 0 20px;
+}
+
 .aboutustext {
     font-family: var(--font-paragraph);
     padding: 20px 50px;
