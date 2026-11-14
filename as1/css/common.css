@@ -65,9 +65,7 @@ body {
     font-weight: 200;
 }
 
-.top {
-    margin-left: 110px;
-}
+
 
 .top h1 {
     font-weight: 300;
@@ -262,6 +260,10 @@ body {
 }
 
 @media screen and (max-width: 1160px) {
+
+    .header {
+        gap: 200px;
+    }
 
     .mobilemenu {
         display: block;

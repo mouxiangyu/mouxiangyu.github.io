@@ -12,6 +12,11 @@
     max-width: 100%;
 }
 
+.aboutbgtablet,
+.aboutbgmobile {
+    display: none;
+}
+
 .maintext {
     display: flex;
     flex-direction: column;
@@ -169,4 +174,135 @@
 
 .underline {
     width: 85px;
+}
+
+@media screen and (max-width: 1160px) {
+    .header {
+        background-color: var(--color-dark);
+    }
+
+    .mainsection {
+        flex-direction: column;
+    }
+
+    .aboutbg {
+        display: none;
+    }
+
+    .aboutbgtablet {
+        display: block;
+        width: 100%;
+    }
+
+    .aboutbgtablet img {
+        display: block;
+        width: 100%;
+    }
+
+    .maintext {
+        margin: 80px 50px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .maintext h1 {
+        padding: 15px 0;
+    }
+
+    .aboutustext {
+        padding: 30px 160px;
+        line-height: 1.5;
+    }
+
+    .culinarycontainer {
+        gap: 0;
+    }
+
+    .commitmentsec {
+        background-image: url(../images/commitmenttablet.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+
+    .committext {
+        text-align: center;
+    }
+
+    .commitimg,
+    .commitimgsec {
+        display: none;
+    }
+
+    .achievementssec p {
+        font-family: var(--font-paragraph);
+        padding: 0 100px;
+        padding-bottom: 50px;
+        line-height: 2;
+    }
+
+    .achivecontainer {
+        flex-direction: column;
+    }
+
+    .achivecontainer h1 {
+        font-size: 51px;
+        padding-bottom: 50px;
+    }
+
+    .luxuryimg,
+    .gourmetimg,
+    .agfgimg {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        position: sticky;
+        top: 0;
+    }
+
+    .aboutbgtablet {
+        display: none;
+    }
+
+
+    .aboutbgmobile {
+        display: block;
+    }
+
+    .aboutbgmobile img {
+        display: block;
+        width: 100%;
+    }
+
+    .aboutustext {
+        padding: 20px 0;
+        line-height: 2;
+    }
+
+    .culinarysec {
+        padding: 30px 0;
+    }
+
+    .culinarysec h1 {
+        padding: 0 110px;
+    }
+
+    .culinarycontainer {
+        margin: 10px 0;
+    }
+
+    .culinarysec p {
+        font-size: 19px;
+        margin: 0 50px;
+    }
+
+    .culinaryimgsec {
+        display: none;
+    }
 }
