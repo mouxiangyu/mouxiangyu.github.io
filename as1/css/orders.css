@@ -11,17 +11,14 @@
 }
 
 .maintext {
-    position: static;
-    margin: -140px 0 0;
     text-align: center;
 }
 
-.styledlines p {
-    padding: 15px 20px;
-}
+
 
 .styledlines {
     display: flex;
+    width: 100%;
 }
 
 .styledlines div {
@@ -30,6 +27,14 @@
 
 .line {
     border-bottom: 1px solid var(--background-light);
+}
+
+.subtitle {
+    padding: 0;
+}
+
+.tablettitle {
+    display: none;
 }
 
 .orderdivider {
@@ -61,7 +66,6 @@
 
 .textbutton {
     display: flex;
-    align-items: center;
     margin: 0;
 }
 
@@ -86,8 +90,7 @@
 }
 
 .signatures {
-    padding: 80px 0;
-    padding-right: 90px;
+    padding: 80px 50px;
 }
 
 .menusectiontop {
@@ -120,7 +123,7 @@
     flex-direction: row;
     background-color: var(--color-dark);
     color: var(--background-light);
-    align-items: center;
+    justify-content: center;
 }
 
 .porkimg {
@@ -133,7 +136,7 @@
 
 
 .menutextpork {
-    margin: 0 90px;
+    margin: 70px 90px;
 }
 
 .menutextpork h1 {
@@ -196,7 +199,7 @@
 }
 
 .buttonscontainerbtm {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     gap: 10px;
 }
@@ -206,7 +209,7 @@
 }
 
 .btmqtynum {
-    padding: 0 80px;
+    padding: 0 75px;
 }
 
 .btmadd {
@@ -244,4 +247,131 @@
     color: var(--background-light);
     border: 0px solid;
     padding: 15px 30px;
+}
+
+@media screen and (max-width: 1160px) {
+
+    .desktoptitle {
+        display: none;
+    }
+
+    .tablettitle {
+        display: block;
+    }
+
+    .orderdivider {
+        padding: 90px 90px;
+    }
+
+    .dividertext h1 {
+        padding: 15px 0;
+    }
+
+
+
+    .buttonscontainer {
+        flex-direction: column;
+    }
+
+    .btnqty {
+        width: 100%;
+    }
+
+    .menuviewcart {
+        width: 100%;
+    }
+
+    .addcartbutton {
+        width: 100%;
+    }
+
+    .twicecookpork {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .porkimg {
+        width: 100%;
+    }
+
+    .menutextpork {
+        margin: 60px 120px;
+    }
+
+    .fooddetailp {
+        margin-top: 10px;
+    }
+
+    .buttonscontainerp {
+        margin: 40px 0;
+        gap: 80px;
+    }
+
+    .btnqtyp {
+        width: 100%;
+    }
+
+    .addcartbuttonp {
+        width: 100%;
+    }
+
+    .menusectionbottom {
+        flex-wrap: wrap;
+    }
+
+    .menusectionbottom>.menucon {
+        flex: auto;
+    }
+
+    .buttonscontainerbtm {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .header {
+        background-color: var(--color-dark);
+        position: sticky;
+        top: 0;
+    }
+
+    .textbutton {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .viewcart {
+        padding: 15px 0;
+    }
+
+    .textbutton .viewcart {
+        margin: 0;
+    }
+
+    .menusectiontop {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menusectiontop>.menucon {
+        flex: auto;
+    }
+
+    .buttonscontainerp {
+        margin: 0;
+        gap: 80px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+
+    .menutextpork {
+        margin: 60px 50px;
+    }
+
+    .buttonscontainerp {
+        gap: 30px;
+    }
+
 }
