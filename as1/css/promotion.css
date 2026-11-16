@@ -1,0 +1,39 @@
+.romanticdining {
+    background-image: url(../images/evening.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 3.15/1;
+    text-align: center;
+}
+
+.membershipbg {
+    background-image: url(../images/membership.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 460px;
+    text-align: center;
+}
+
+.classictier {
+    background-image: url(../images/classic.jpg);
+}
+
+.prestigetier {
+    background-image: url(../images/priestage.jpg);
+}
+
+.elitetier {
+    background-image: url(../images/elite.jpg);
+}
+
+.classictier,
+.prestigetier,
+.elitetier {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 438px;
+    text-align: center;
+}
