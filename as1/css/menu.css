@@ -1,9 +1,40 @@
-.reccfoodmenu {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+.header {
+    background-color: var(--color-dark);
+    position: sticky;
 }
 
+.reccheader {
+    background-image: url(../images/recc\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 335px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reccheader h1 {
+    font-size: var(--bebas-hero);
+    font-weight: 300;
+}
+
+
+.reccfoodmenu {
+    background-color: var(--background-light);
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    flex: 1;
+    padding: 60px 40px;
+}
+
+.reccfoodmenu img {
+    display: block;
+    width: 100%;
+}
 
 .chocolateball,
 .butterlobster,
@@ -13,8 +44,173 @@
 
 .foodname {
     position: absolute;
+}
+
+.reccfoodmenu p {
+    font-size: 25px;
+}
+
+.lobster {
     bottom: 5px;
-    left: 220px;
+    left: 160px;
+}
+
+.choco {
+    bottom: 5px;
+    left: 180px;
+}
+
+.duck {
+    bottom: 5px;
+    left: 80px;
+}
+
+.maincourse {
+    background-color: var(--background-light);
+    color: var(--color-dark);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.maincoursebg img {
+    display: block;
+    min-height: 960px;
     width: 100%;
+}
+
+.maincoursetext {
+    margin: 0 50px;
+}
+
+.maincoursetext h1 {
+    font-size: var(--bebas-hero);
+    font-weight: 300;
+}
+
+.foodnprice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foodnprice p {
+    margin: 0;
+}
+
+.coursename {
     font-size: 30px;
+    padding-top: 15px;
+}
+
+.price {
+    font-family: var(--font-subtitle);
+    font-size: var(--subtitle);
+    margin: 0;
+}
+
+.coursedetails {
+    font-family: var(--font-paragraph);
+    line-height: 1.5;
+}
+
+.underline {
+    width: 100%;
+}
+
+.dessertdivider {
+    background-image: url(../images/dessert\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 335px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dessertdivider h1 {
+    font-size: var(--bebas-hero);
+    font-weight: 300;
+}
+
+.dessertmenu {
+    background-color: var(--background-light);
+    color: var(--color-dark);
+    display: flex;
+    flex-direction: row;
+    padding: 50px 80px;
+    padding-bottom: 200px;
+    gap: 20px;
+}
+
+.dessertmenu img {
+    width: 100%;
+}
+
+.dessertname {
+    font-size: 25px;
+    margin: 0;
+}
+
+.tiramisu,
+.creme {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    top: 160px;
+}
+
+.dessertdetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.cocktail {
+    background-image: url(../images/best\ croctails\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 1024px;
+    display: flex;
+    align-items: center;
+}
+
+.cocktailcontent {
+    margin: 0;
+    padding-left: 90px;
+}
+
+.cocktailtitle {
+    margin: 70px 0;
+}
+
+
+.cocktailtitle h1 {
+    font-size: var(--bebas-hero);
+    font-weight: 300;
+}
+
+.cocktailline {
+    width: 15%;
+    margin: 0;
+}
+
+.cocktailtext {
+    font-family: var(--font-paragraph);
+    max-width: 360px;
+    padding: 50px 0;
+    margin: 0;
+}
+
+.menubtn {
+    font-family: var(--font-subtitle);
+    background-color: transparent;
+    color: var(--background-light);
+    border: 1px solid var(--background-light);
+    padding: 15px 20px;
 }
