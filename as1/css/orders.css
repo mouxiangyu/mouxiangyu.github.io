@@ -21,17 +21,13 @@
     width: 100%;
 }
 
-.styledlines div {
-    flex: 1;
-}
+
+
 
 .line {
     border-bottom: 1px solid var(--background-light);
 }
 
-.subtitle {
-    padding: 0;
-}
 
 .tablettitle {
     display: none;
@@ -102,8 +98,6 @@
 
 .menucon {
     background-color: var(--color-grey);
-    flex: 1;
-    min-width: 0;
 }
 
 .menucon img {
@@ -126,9 +120,6 @@
     justify-content: center;
 }
 
-.porkimg {
-    width: 45%;
-}
 
 .porkimg img {
     width: 100%;
@@ -169,6 +160,7 @@
     border: 1px solid var(--background-light);
     font-family: var(--font-paragraph);
     padding: 15px 20px;
+    width: 100%;
 }
 
 .addcartbuttonp {
@@ -177,6 +169,7 @@
     color: var(--color-dark);
     border: 0px solid;
     padding: 15px 20px;
+    width: 100%;
 }
 
 .bottom {
@@ -188,6 +181,10 @@
     flex-direction: row;
     gap: 20px;
     align-items: center;
+}
+
+.menucon {
+    flex: 1;
 }
 
 .btmtext h1 {
@@ -202,22 +199,7 @@
     display: inline-flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.btmqty {
-    padding: 15px 29px;
-}
-
-.btmqtynum {
-    padding: 0 75px;
-}
-
-.btmadd {
-    padding: 15px 104px;
-}
-
-.btmview {
-    padding: 15px 112px;
+    width: 100%;
 }
 
 .checkoutcontainer {
@@ -273,17 +255,6 @@
         flex-direction: column;
     }
 
-    .btnqty {
-        width: 100%;
-    }
-
-    .menuviewcart {
-        width: 100%;
-    }
-
-    .addcartbutton {
-        width: 100%;
-    }
 
     .twicecookpork {
         flex-direction: column;
@@ -320,7 +291,8 @@
     }
 
     .menusectionbottom>.menucon {
-        flex: auto;
+        width: calc(50% - 20px);
+        flex: none;
     }
 
     .buttonscontainerbtm {

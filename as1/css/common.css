@@ -27,6 +27,7 @@
 /* GLOBAL */
 * {
     margin: auto;
+    box-sizing: border-box;
 }
 
 body {
@@ -154,11 +155,18 @@ body {
 
 .styledlines {
     display: flex;
+
 }
 
 .styledlines div {
     flex: 1;
 }
+
+#linetitle {
+    flex: 1.5;
+}
+
+
 
 .line {
     border-bottom: 1px solid var(--background-light);
@@ -192,6 +200,7 @@ body {
     margin: 20px 0;
     padding-right: 100px;
     line-height: 1.5;
+    min-height: 90px;
 }
 
 .foodprice {
@@ -225,26 +234,27 @@ body {
 .quantitybuttons {
     display: flex;
     gap: 0;
+    width: 100%;
 }
 
-.quantitybuttons button {
-    margin: 0;
-}
 
 .btnqty {
     font-family: var(--font-paragraph);
     padding: 15px 20px;
+    width: 100%;
 }
 
 .menuviewcart {
     padding: 15px 20px;
+    width: 100%;
 }
 
 .addcartbutton {
     background-color: var(--hover-gold);
     color: var(--background-light);
     border: 0px solid;
-    padding: 15px 50px;
+    padding: 15px 20px;
+    width: 100%;
 }
 
 /* # footer # */
