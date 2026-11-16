@@ -106,8 +106,11 @@ body {
     margin-left: 2px;
 }
 
-.mobilemenu {
+.menu-toggle {
+    font-size: 30px;
+    cursor: pointer;
     display: none;
+    z-index: 1001;
 }
 
 /* # main page content # */
@@ -297,15 +300,43 @@ body {
 @media screen and (max-width: 1160px) {
 
     .header {
-        gap: 200px;
+        justify-content: space-between;
+        gap: 250px;
     }
 
-    .mobilemenu {
+    .menu-toggle {
         display: block;
     }
 
     .infobar {
-        display: none;
+        height: 100vh;
+        width: 100%;
+        opacity: 0;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-dark);
+
+        position: fixed;
+        top: 0;
+        right: -100%;
+
+        transition: all 0.3s ease;
+        z-index: 1000;
+    }
+
+    .infobar.active {
+        opacity: 1;
+        right: 0%;
+    }
+
+    .menu-item {
+        margin: 20px 0;
+    }
+
+    .menu-item a {
+        color: var(--background-light);
     }
 
     .welcome {
@@ -320,6 +351,8 @@ body {
     .mainpara {
         font-size: medium;
     }
+
+
 }
 
 /* # tablet screen # */
@@ -352,3 +385,5 @@ body {
         padding: 0px 45px;
     }
 }
+
+@media (max-width: 768px) {}

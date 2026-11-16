@@ -1,0 +1,20 @@
+.reccfoodmenu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.chocolateball,
+.butterlobster,
+.reccduck {
+    position: relative;
+}
+
+.foodname {
+    position: absolute;
+    bottom: 5px;
+    left: 220px;
+    width: 100%;
+    font-size: 30px;
+}
