@@ -76,6 +76,10 @@
     padding: 70px 0;
 }
 
+.seasonalmenu>div {
+    text-align: center;
+}
+
 .seasonalmenu img {
     display: block;
     width: 100%;
@@ -83,7 +87,7 @@
 
 .seasonalmenutext {
     text-align: center;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 .seasonalmenuname {
@@ -93,7 +97,8 @@
 .seasonalmenudetail {
     font-family: var(--font-paragraph);
     line-height: 1.5;
-    padding: 10px 0;
+    padding-top: 20px;
+    max-width: 250px;
 }
 
 .learnmorebtn {
@@ -114,13 +119,145 @@
     align-items: center;
 }
 
-.membershipbg {
+.romanticdining h1 {
+    font-size: var(--bebas-title);
+    font-weight: 300;
+}
+
+.romanticdetail {
+    font-family: var(--font-paragraph);
+    padding-top: 20px;
+    max-width: 700px;
+}
+
+.romanticcourse {
+    background-color: var(--background-light);
+    color: var(--color-dark);
+    padding: 70px 70px;
+}
+
+.dessertcouple,
+.coursesetmenu,
+.sparklingwine {
+    display: flex;
+    flex-direction: row;
+}
+
+.dessertcouple img {
+    max-width: 700px;
+}
+
+.coursesetmenu img {
+    max-width: 500px;
+}
+
+.coursesetmenu {
+    position: relative;
+    left: 70px;
+    bottom: 220px;
+}
+
+.sparklingwine {
+    position: relative;
+    bottom: 310px;
+    left: 130px;
+    width: calc(100% - 130px);
+    margin: 0 0 -290px;
+}
+
+.romanticcoursedetail {
+    font-size: 25px;
+}
+
+.styledlines {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.styledlines .line {
+    flex: 1;
+    margin: 0;
+}
+
+.styledlines .linecontent {
+    flex: 0 0 auto;
+    margin: 0;
+}
+
+.line {
+    border-bottom: 1px solid var(--color-dark);
+}
+
+
+.reservebtn {
+    background-color: transparent;
+    font-family: var(--font-subtitle);
+    border: 1px solid var(--color-dark);
+    padding: 10px 30px;
+    display: block;
+    margin-top: 10px;
+}
+
+.membership {
     background-image: url(../images/membership.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 460px;
+    min-height: 400px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.membership>* {
+    margin: 0;
+}
+
+.membership h1 {
+    font-size: var(--bebas-title);
+    font-weight: 300;
+}
+
+.membership p {
+    font-family: var(--font-paragraph);
+    line-height: 1.5;
+    max-width: 750px;
+    margin-inline: auto;
+}
+
+.membershiptiers {
+    background-color: var(--background-light);
+    padding: 40px 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.spendings {
+    font-size: 25px;
+}
+
+.tierperks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.tierperks img {
+    object-fit: contain;
+    margin: 0;
+}
+
+.tierperks p {
+    font-family: var(--font-paragraph);
+    margin: 0;
+    text-align: left;
 }
 
 .classictier {
@@ -138,9 +275,22 @@
 .classictier,
 .prestigetier,
 .elitetier {
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 438px;
+    height: 400px;
     text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.applybtn {
+    font-family: var(--font-subtitle);
+    background-color: transparent;
+    color: var(--background-light);
+    border: 1px solid var(--background-light);
+    padding: 7px 60px;
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
 }
