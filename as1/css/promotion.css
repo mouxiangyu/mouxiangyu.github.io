@@ -13,9 +13,17 @@
     max-width: 50%;
 }
 
+.promobgmobile {
+    display: none;
+}
+
 .promobg img {
     display: block;
     max-width: 100%;
+}
+
+.mainline {
+    display: none;
 }
 
 .subtitle {
@@ -147,6 +155,11 @@
     max-width: 700px;
 }
 
+.dessertcouple {
+    position: relative;
+    z-index: 1;
+}
+
 .coursesetmenu img {
     max-width: 500px;
 }
@@ -155,6 +168,7 @@
     position: relative;
     left: 70px;
     bottom: 220px;
+    z-index: 0;
 }
 
 .sparklingwine {
@@ -170,10 +184,15 @@
 }
 
 .styledlines {
-    width: 45%;
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+@media screen and (min-width: 1025px) {
+    .styledlines {
+        width: 50%;
+    }
 }
 
 .styledlines .line {
@@ -233,7 +252,15 @@
     padding: 40px 90px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 60px;
+    flex: 1;
+    width: 100%;
+}
+
+.tiercontent {
+    width: 100%;
 }
 
 .spendings {
@@ -243,10 +270,11 @@
 .tierperks {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     gap: 10px;
     padding-top: 20px;
     padding-left: 30px;
+    width: 100%;
+    margin: auto;
 }
 
 .tierperks img {
@@ -260,8 +288,10 @@
     text-align: left;
 }
 
+
 .classictier {
     background-image: url(../images/classic.jpg);
+
 }
 
 .prestigetier {
@@ -280,9 +310,16 @@
     background-position: center;
     height: 400px;
     text-align: center;
-    width: 100%;
+    width: 300px;
+    flex: 0 0 300px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0;
 }
+
 
 .applybtn {
     font-family: var(--font-subtitle);
@@ -290,7 +327,129 @@
     color: var(--background-light);
     border: 1px solid var(--background-light);
     padding: 7px 60px;
-    position: absolute;
-    bottom: 30px;
-    left: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .mainsection {
+        flex-direction: column;
+        gap: 20px;
+        padding: 80px 0;
+    }
+
+    .promobg {
+        max-width: 100%;
+    }
+
+    .promobg img {
+        width: 1024px;
+    }
+
+    .seasonalmenu {
+        flex-direction: column;
+    }
+
+    .romanticcourse {
+        aspect-ratio: 1/1;
+        padding: 90px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .romanticcoursedetail {
+        padding: 20px 0;
+    }
+
+    .styledlines .line {
+        flex: 0 0 5%;
+    }
+
+    .dessertcouple,
+    .coursesetmenu,
+    .sparklingwine {
+        flex-direction: column;
+        width: 100%;
+        left: 0%;
+        bottom: 0%;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .romanticcourse img {
+        width: 500px;
+        height: 700px;
+    }
+
+    .coursesetmenu {
+        flex-direction: column-reverse;
+    }
+
+    .membershiptiers {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 890px) {
+    .mainsection {
+        padding: 0;
+        gap: 0;
+    }
+
+    .maintext {
+        margin: 60px 40px;
+    }
+
+    .mainline {
+        display: block;
+        margin: 0;
+        width: 5%;
+    }
+
+    .styledlines .line {
+        flex: 0 0 3%;
+    }
+
+    .promobg {
+        display: none;
+    }
+
+    .promobgmobile {
+        display: block;
+        width: 100%;
+    }
+
+    .promobgmobile img {
+        display: block;
+        width: 100%;
+    }
+
+    .romanticdining {
+        height: 481px;
+        width: 100%;
+    }
+
+    .romanticdetail {
+        padding: 10px 70px;
+    }
+
+    .romanticcourse img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+
+    .membershiptiers {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px 10px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .styledlines .line {
+        flex: 0 0 2%;
+    }
 }
